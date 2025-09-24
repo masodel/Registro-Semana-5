@@ -1,0 +1,11 @@
+C:\Users\u26ak\source\repos\Registros\Productos\bin\Debug\Productos.exe.config
+C:\Users\u26ak\source\repos\Registros\Productos\bin\Debug\Productos.exe
+C:\Users\u26ak\source\repos\Registros\Productos\bin\Debug\Productos.pdb
+C:\Users\u26ak\source\repos\Registros\Productos\obj\Debug\Productos.csproj.AssemblyReference.cache
+C:\Users\u26ak\source\repos\Registros\Productos\obj\Debug\Productos.Form1.resources
+C:\Users\u26ak\source\repos\Registros\Productos\obj\Debug\Productos.Properties.Resources.resources
+C:\Users\u26ak\source\repos\Registros\Productos\obj\Debug\Productos.csproj.GenerateResource.cache
+C:\Users\u26ak\source\repos\Registros\Productos\obj\Debug\Productos.csproj.CoreCompileInputs.cache
+C:\Users\u26ak\source\repos\Registros\Productos\obj\Debug\Productos.exe
+C:\Users\u26ak\source\repos\Registros\Productos\obj\Debug\Productos.pdb
+C:\Users\u26ak\source\repos\Registros\Productos\obj\Debug\Productos.exe.config
