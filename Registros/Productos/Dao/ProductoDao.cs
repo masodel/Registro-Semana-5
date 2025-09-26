@@ -13,12 +13,12 @@ namespace Productos.Dao
         private Producto[] carrito = new Producto[TAM];
         private int pos = 0;
 
-        public void Agregar(Producto prod)
+        public void Agregar(Producto prod, ref string error)
         {
             if (pos < TAM)
                 carrito[pos++] = prod;
 
-            else MessageBox.Show("Carrito lleno", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else error = "Carrito lleno";
         }
 
         public Producto[] VerCarrito()

@@ -36,10 +36,13 @@ namespace Productos
                 prod.Precio = double.Parse(tbPrecio.Text);
                 prod.Iva = chkIVA.Checked;
 
-                dao.Agregar(prod);
+                string error = "";
+
+                dao.Agregar(prod, ref error);
+                lblError.Text = error;
                 LlenarGrid();
             }
-            catch(Exception ex)
+            catch(FormatException ex)
             {
                 MessageBox.Show("Error: Ingrese un número", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
