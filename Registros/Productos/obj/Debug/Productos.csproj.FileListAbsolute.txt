@@ -10,3 +10,4 @@ C:\Users\u26ak\source\repos\Registros\Productos\obj\Debug\Productos.exe
 C:\Users\u26ak\source\repos\Registros\Productos\obj\Debug\Productos.pdb
 C:\Users\u26ak\source\repos\Registros\Productos\obj\Debug\Productos.exe.config
 C:\Users\u26ak\source\repos\Registros\Productos\obj\Debug\Productos.FrmPrincipal.resources
+C:\Users\u26ak\source\repos\Registros\Productos\obj\Debug\Productos.Formularios.Login.resources

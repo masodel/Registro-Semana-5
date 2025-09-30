@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Productos.Formularios;
 
 namespace Productos
 {
@@ -16,7 +17,17 @@ namespace Productos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmPrincipal());
+            using (Login login = new Login())
+            {
+                if (login.ShowDialog() == DialogResult.OK)
+                {
+                    Application.Run(new FrmPrincipal());
+                }
+                else
+                {
+                    MessageBox.Show("Acceso denegado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
     }
 }
